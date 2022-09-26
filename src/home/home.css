@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&family=League+Gothic&family=Roboto&display=swap");
+.home {
+  background-color: rgb(25, 24, 25);
+  overflow: hidden;
+  /* height: 400vh; */
+}
+* {
+  font-family: Roboto, "sans-serif";
+}

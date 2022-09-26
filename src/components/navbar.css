@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, "sans-serif";
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  color: white;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background: linear-gradient(to top, transparent 0%, rgb(0, 0, 0, 0.3) 50%);
+  font-size: 0.7em;
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.scrolled {
+  transition: all linear 200ms;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.container {
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left img {
+  height: 25px;
+  margin-right: 40px;
+}
+Link {
+  text-decoration: none;
+}
+
+.left span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  align-items: center;
+}
+.right .icon {
+  margin: -5px 15px;
+  cursor: pointer;
+  font-size: 1.4em;
+}
+.iconborder {
+  border: 2px solid white;
+}
+
+.right img {
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.profile {
+  position: relative;
+}
+.profile .options {
+  display: none;
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+.profile .optionsshow {
+  width: 200px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 37px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.scrolled .optionsshow {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.dropdownmenu {
+  transition: all linear 200ms;
+}
+.dropdownmenu span {
+  width: 100%;
+  transition: all linear 100ms;
+  font-size: 0.9em;
+}
+.dropdownmenu span:hover {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.menudown {
+  border-bottom: 1px solid white;
+}
+.right span {
+  padding: 10px;
+  cursor: pointer;
+}

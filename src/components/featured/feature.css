@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Fascinate&family=League+Gothic&family=Nunito&family=Roboto&family=Titan+One&display=swap");
+
+.featured {
+  height: 95vh;
+  position: relative;
+  margin-bottom: 20px;
+}
+.featured img:not(.desc .title img) {
+  width: 100%;
+  height: 100%;
+  object-position: center top;
+  object-fit: cover;
+}
+.desc .title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 3px;
+  text-shadow: 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+.desc {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  width: 45%;
+  left: 50px;
+  top: 180px;
+}
+.desc p {
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.86);
+  font-size: 15.18px;
+}
+.release p {
+  color: rgba(201, 201, 201, 0.9);
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  gap: 1em;
+}
+.buttons button {
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.play {
+  padding: 5px 20px 5px 15px;
+  background-color: #eeedee;
+}
+
+.buttons button span {
+  margin-left: 5px;
+}
+.buttons button .icon {
+  font-size: 30px;
+}
+.buttons button .iconinfo {
+  font-size: 25px;
+}
+.info {
+  background-color: rgba(204, 202, 203, 0.5);
+  color: white;
+  padding: 5px 10px;
+}
+.moviedesc {
+  color: #bbbbb5;
+  display: flex;
+  gap: 0.7em;
+}
+.moviedesc a {
+  text-decoration: none;
+  color: #bbbbb5;
+}
+.moviedesc a:hover {
+  text-decoration: underline;
+}
+.moviedesc .rt {
+  border-right: 2px solid #a3a396;
+}
+.agelimit {
+  border: 1px solid #a3a396;
+  padding: 0px 5px;
+  font-size: 0.7em;
+  line-height: 20px;
+}
